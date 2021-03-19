@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exemplo modeloProjeto</title>
+</head>
+<body>
+
+    <h1>Controle de Refeições (Cadastro) </h1>
+
+    <form action="" id="form">
+        <label>Quantidade refeições:</label>  
+        <input type="number">
+        <label>Quantidade repetições:</label>  
+        <input type="number"> 
+        <label>Selecione a Turma:</label>
+        <input type="text" list="turma">
+        <datalist id="turma">
+            <option value="1° Turma"></option>
+            <option value="2° Turma"></option>
+            <option value="3° Turma"></option>
+            <option value="4° Turma"></option>
+        </datalist>
+        <label for="">Dia:</label>  
+        <input type="date"> 
+        <button onclick="myFunction()">Cadastrar</button>      
+    </form>
+
+    <script>
+        function myFunction() {
+            alert("Cadastro Realizado com Sucesso!");
+        }
+    </script>
+  
+
+</body>
+</html>
